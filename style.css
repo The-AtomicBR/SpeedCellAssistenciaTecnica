@@ -20,3 +20,15 @@
   display: flex;
   align-items: center;
 }
+
+edia (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+
+  .menu a {
+    margin: 0.5rem 0;
+  }
+}
