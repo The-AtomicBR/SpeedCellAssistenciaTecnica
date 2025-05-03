@@ -156,9 +156,18 @@ footer {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
+.icone-rede {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+
+.icone-rede:hover {
+  transform: scale(1.1);
+}
 .redes-sociais a {
   color: #66ccff;
   font-weight: bold;
