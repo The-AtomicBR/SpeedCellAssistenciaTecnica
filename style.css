@@ -144,38 +144,46 @@ ul li {
   z-index: 200;
 }
 
-/* RODAPÉ */
-footer {
+/* RODAPÉ NOVO COM REDES À DIREITA */
+.rodape-personalizado {
   background-color: #0f152e;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  margin-top: 2rem;
-}
-.redes-sociais {
-  margin-top: 1rem;
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
 }
 
-.icone-rede {
-  width: 32px;
-  height: 32px;
-  transition: transform 0.3s;
+.rodape-personalizado .creditos {
+  color: #fff;
 }
 
-.icone-rede:hover {
-  transform: scale(1.1);
-}
-.redes-sociais a {
+.rodape-personalizado .redes {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
   color: #66ccff;
   font-weight: bold;
-  transition: color 0.3s;
 }
 
-.redes-sociais a:hover {
-  color: #ffffff;
+.rodape-personalizado .redes a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #66ccff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.rodape-personalizado .redes a:hover {
+  color: white;
+}
+
+.rodape-personalizado .icone-rede {
+  width: 20px;
+  height: 20px;
 }
 
 /* DEPOIMENTOS */
@@ -210,7 +218,6 @@ footer {
 }
 
 /* AVALIAÇÃO NO GOOGLE */
-
 .avaliacao-google {
   background-color: #1a2140;
   text-align: center;
@@ -249,5 +256,12 @@ footer {
   .btn-destaque {
     font-size: 0.95rem;
     padding: 0.7rem 1.2rem;
+  }
+
+  .rodape-personalizado {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
   }
 }
