@@ -152,6 +152,29 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+/* DEPOIMENTOS */
+.depoimentos {
+  background-color: #121a36;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.comentario {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #1f273b;
+}
+
+.comentario p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.comentario span {
+  font-size: 0.9rem;
+  color: #ccc;
+}
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
