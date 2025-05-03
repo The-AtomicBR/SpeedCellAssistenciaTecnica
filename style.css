@@ -161,7 +161,7 @@ footer {
 }
 
 .comentario {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #1f273b;
 }
@@ -174,6 +174,13 @@ footer {
 .comentario span {
   font-size: 0.9rem;
   color: #ccc;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
 }
 
 /* RESPONSIVO */
