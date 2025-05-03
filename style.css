@@ -1,4 +1,23 @@
-/* TOPO FIXO */
+/* RESET E BASE */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a1026;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
 .navbar {
   background-color: #0a1026;
   padding: 1rem 0;
@@ -8,7 +27,6 @@
   border-bottom: 1px solid #1f273b;
 }
 
-/* CONTAINER FLEX DO TOPO */
 .nav-flex {
   display: flex;
   align-items: center;
@@ -17,12 +35,10 @@
   flex-wrap: wrap;
 }
 
-/* LOGO */
 .logo {
   max-height: 50px;
 }
 
-/* MENU DE LINKS */
 .menu {
   display: flex;
   align-items: center;
@@ -41,7 +57,6 @@
   color: #66ccff;
 }
 
-/* BOTÃO DO TOPO */
 .btn-topo {
   background-color: #e63946;
   color: white;
@@ -51,7 +66,94 @@
   white-space: nowrap;
 }
 
-/* VERSÃO RESPONSIVA */
+/* HERO / TOPO */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #121a36;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.hero span {
+  color: #66ccff;
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.btn-destaque {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #e63946;
+  color: white;
+  padding: 0.9rem 1.7rem;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* SEÇÕES */
+section {
+  padding: 3rem 1rem;
+}
+
+h2 {
+  color: #66ccff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "✔️ ";
+  margin-right: 0.4rem;
+}
+
+ul li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+/* CONTATO */
+.contato a {
+  color: #66ccff;
+  font-weight: bold;
+}
+
+/* WHATSAPP FLUTUANTE */
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.8rem 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 200;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: #0f152e;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* RESPONSIVO */
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
@@ -61,5 +163,14 @@
 
   .menu a {
     margin: 0.5rem 0;
+  }
+
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .btn-destaque {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.2rem;
   }
 }
