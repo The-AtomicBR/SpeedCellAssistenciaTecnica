@@ -188,9 +188,10 @@ ul li {
 }
 
 .selo-seguro img {
-  width: 200px;
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
+  margin: 1rem auto;
+  display: block;
 }
 
 .creditos {
