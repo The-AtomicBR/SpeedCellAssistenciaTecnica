@@ -157,6 +157,8 @@ ul li {
 
 .rodape-personalizado .creditos {
   color: #fff;
+  text-align: center;
+  width: 100%;
 }
 
 .rodape-personalizado .redes.empilhado {
