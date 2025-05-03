@@ -153,6 +153,7 @@ ul li {
   padding: 1rem 2rem;
   flex-wrap: wrap;
   font-size: 0.9rem;
+  margin-top: 3rem; /* espaçamento entre a última seção e o rodapé */
 }
 
 .rodape-personalizado .creditos {
