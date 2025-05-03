@@ -1,14 +1,39 @@
+/* TOPO FIXO */
+.navbar {
+  background-color: #0a1026;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #1f273b;
+}
+
+/* CONTAINER FLEX DO TOPO */
 .nav-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* LOGO */
+.logo {
+  max-height: 50px;
+}
+
+/* MENU DE LINKS */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
 .menu a {
-  margin: 0 0.8rem;
   color: #ffffff;
   font-weight: 500;
+  font-size: 1rem;
   transition: color 0.2s;
 }
 
@@ -16,12 +41,18 @@
   color: #66ccff;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
+/* BOTÃO DO TOPO */
+.btn-topo {
+  background-color: #e63946;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
-edia (max-width: 768px) {
+/* VERSÃO RESPONSIVA */
+@media (max-width: 768px) {
   .menu {
     flex-direction: column;
     align-items: flex-start;
